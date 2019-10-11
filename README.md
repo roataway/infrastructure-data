@@ -1,7 +1,9 @@
 # Overview
 
-This repository is related to https://github.com/roataway/web-ui and it contains slightly
-tweaked data extracted from OpenStreetMap.
+This repository is related to https://github.com/roataway/web-ui and it contains information
+about the transport infrastructure of a city:
+- details about vehicles
+- route-related data (stations, route segments) extracted from OpenStreetMap
 
 ## The process of obtaining the data
 
@@ -27,6 +29,9 @@ Some of the information is stored in CSV files, to make it easier for stakeholde
 from the public transport industry directly contribute to the repository, supplying
 fresh data. It is assumed that they are familiar with how to use spreadsheets, so
 CSV is appropriate because it allows them to edit it as a table.
+
+These details are obtained through personal observations and through interactions
+with RTEC staff.
 
 ### Route information
 
@@ -70,7 +75,7 @@ Note that at the moment not all vehicles are equipped with GPS trackers, hence t
 
 ## Helper tools
 
-### `getRoute` - automatically retrieve routes metadata from OpenStreetMap
+### `getRoute` - automatically retrieve routes metadata from OpenStreetMap.
 
 This tool retrieves information about a given route, by taking all routes from a CSV
 file that was fed into it, or by explicitly retrieving one particular route specified
