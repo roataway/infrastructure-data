@@ -1,0 +1,16 @@
+{
+  "name": "@roataway/infrastructure-data",
+  "version": "1.0.0",
+  "description": "This repository is related to https://github.com/roataway/web-ui and it contains information about the transport infrastructure of a city: - details about vehicles - route-related data (stations, route segments) extracted from OpenStreetMap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roataway/infrastructure-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roataway/infrastructure-data/issues"
+  },
+  "homepage": "https://github.com/roataway/infrastructure-data#readme"
+}
