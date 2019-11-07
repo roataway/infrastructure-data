@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/roataway/infrastructure-data/issues"
   },
-  "homepage": "https://github.com/roataway/infrastructure-data#readme"
+  "homepage": "https://github.com/roataway/infrastructure-data#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
