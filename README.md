@@ -11,7 +11,10 @@ about the transport infrastructure of a city:
 
 These are obtained via the Overpass API.
 
-1. Go to `http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bway._%3Bout%20geom%3B`
+1. Go to
+```
+http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bway._%3Bout%20geom%3B
+```
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_segments.json`, replacing `upstream_id` with the route's internal identifier in the upstream GPS tracking system.
 
@@ -19,7 +22,10 @@ These are obtained via the Overpass API.
 
 The process is similar to route segments, but the Overpass API query is different:
 
-1. Go to `http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bnode._%20[public_transport%3Dplatform]%3Bout%3B`
+1. Go to
+```
+http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bnode._%20[public_transport%3Dplatform]%3Bout%3B
+```
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_stations.json`, replacing `upstream_id` with the route's internal identifier in the RTEC system.
 
@@ -80,7 +86,6 @@ Note that at the moment not all vehicles are equipped with GPS trackers, hence t
 This tool retrieves information about a given route, by taking all routes from a CSV
 file that was fed into it, or by explicitly retrieving one particular route specified
 by its OpenStreetMap `relation id`.
-The CSV is in https://github.com/roataway/web-ui/tree/master/src/data.
 
 The data are stored in GeoJSON, in 2 files:
 - `route_<upstream_id>_segments.json`
