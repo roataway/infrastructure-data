@@ -1,0 +1,28 @@
+name: Validate geojson
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'data/*.json'
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v1
+    - name: Install Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Install json validator
+      run: npm install -g ajv-cli
+    - name: Download geojson schema
+      run: wget http://json.schemastore.org/geojson
+    - name: Validate all geojson files from data/*.json
+      run: ajv -s geojson -d "data/*.json" --errors=text
