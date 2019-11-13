@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'data/*.json'
+      - 'data/**.json'
 
 env:
   CI: true
