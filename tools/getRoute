@@ -11,7 +11,7 @@ import json
 
 import osm2geojson
 
-# The queries are documented here: https://github.com/roataway/web-ui/tree/master/src/data
+# The queries are documented in README.md
 QUERY_SEGMENTS = "https://overpass-api.de/api/interpreter?data=relation%%20%%28%s%%29%%3B%%0A%%3E%%3E%%3B%%0Away._%%3B%%0Aout%%20geom%%3B"
 QUERY_STATIONS = "https://overpass-api.de/api/interpreter?data=relation%%20%%28%s%%29%%3B%%0A%%3E%%3E%%3B%%0Anode._%%20%%5Bpublic_transport%%3Dplatform%%5D%%3B%%0Aout%%20geom%%3B"
 

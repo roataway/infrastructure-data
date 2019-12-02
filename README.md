@@ -13,7 +13,7 @@ These are obtained via the Overpass API.
 
 1. Go to
 ```
-http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bway._%3Bout%20geom%3B
+https://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bway._%3Bout%20geom%3B
 ```
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_segments.json`, replacing `upstream_id` with the route's internal identifier in the upstream GPS tracking system.
@@ -24,7 +24,7 @@ The process is similar to route segments, but the Overpass API query is differen
 
 1. Go to
 ```
-http://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bnode._%20[public_transport%3Dplatform]%3Bout%3B
+https://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>>%3Bnode._%20[public_transport%3Dplatform]%3Bout%3B
 ```
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_stations.json`, replacing `upstream_id` with the route's internal identifier in the RTEC system.
