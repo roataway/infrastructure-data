@@ -18,6 +18,15 @@ https://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_segments.json`, replacing `upstream_id` with the route's internal identifier in the upstream GPS tracking system.
 
+```
+// URL query as Overpass query
+[out:json];
+relation (8649765);
+>>;
+way._;
+out geom;
+```
+
 ### Route stations
 
 The process is similar to route segments, but the Overpass API query is different:
@@ -29,6 +38,16 @@ https://overpass-api.de/api/interpreter?data=[out:json];relation%20(xxxxxxx)%3B>
 2. Replace `xxxxxxx` with the relation id, e.g. `8649765`
 3. Save the resulting JSON to `data/route_<upstream_id>_stations.json`, replacing `upstream_id` with the route's internal identifier in the RTEC system.
 
+```
+// URL query as Overpass query
+[out:json];
+relation (8649765);
+>>;
+node._[public_transport=platform];
+out;
+```
+
+Overpass queries can be tested at https://overpass-turbo.eu/
 
 ## CSV files
 Some of the information is stored in CSV files, to make it easier for stakeholders
@@ -99,8 +118,8 @@ Installation:
 
 Examples of use (activate the virtualenv via `source venv-getRoute/bin/activate` first):
 
-- `python getRoute --csv ../src/data/routes.csv --dst out` - Get all the routes specified in
-  `../src/data/routes.csv` and save the resulting files to `out/` in the current directory.
+- `python getRoute --csv ../routes.csv --dst data` - Get all the routes specified in
+  `../routes.csv` and save the resulting files to `out/` in the current directory.
 - `python getRoute -r 9478330` - Retrieve data about relation `9478330`; in this case the file
   name will use the `relation_id`, rather than the `upstream_id`.
 - `python getRoute --help` - See what command line args are available
