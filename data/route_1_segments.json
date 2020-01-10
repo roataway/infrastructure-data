@@ -11,9 +11,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "wrong_name": "str. Aeroportului",
                     "wrong_name:ru": "\u0443\u043b. \u0410\u0435\u0440\u043e\u043f\u043e\u0440\u0442\u0443\u043b\u0443\u0439"
@@ -373,6 +373,10 @@
                 "id": 26134590,
                 "tags": {
                     "highway": "tertiary",
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
+                    "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -438,6 +442,10 @@
                 "id": 26134591,
                 "tags": {
                     "highway": "tertiary",
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
+                    "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -484,8 +492,10 @@
                 "tags": {
                     "highway": "tertiary",
                     "lit": "yes",
-                    "name": "Bulevardul dacia",
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -519,7 +529,12 @@
                 "id": 26237927,
                 "tags": {
                     "highway": "tertiary",
-                    "oneway": "yes"
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
+                    "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
+                    "oneway": "yes",
+                    "surface": "asphalt"
                 }
             },
             "geometry": {
@@ -570,9 +585,9 @@
                     "lanes": "3",
                     "maxspeed": "70",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bd.Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -616,12 +631,11 @@
                 "type": "way",
                 "id": 27350341,
                 "tags": {
-                    "admin_level": "10",
-                    "boundary": "administrative",
                     "highway": "trunk",
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ro": "Bd.Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
                     "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
@@ -629,29 +643,27 @@
                 }
             },
             "geometry": {
-                "type": "Polygon",
+                "type": "LineString",
                 "coordinates": [
                     [
-                        [
-                            28.84315711508956,
-                            47.00071328967502
-                        ],
-                        [
-                            28.8430737,
-                            47.0009287
-                        ],
-                        [
-                            28.8428964,
-                            47.0013854
-                        ],
-                        [
-                            28.8427495,
-                            47.0017793
-                        ],
-                        [
-                            28.84315711508956,
-                            47.00071328967502
-                        ]
+                        28.8435869,
+                        46.9995893
+                    ],
+                    [
+                        28.8433565,
+                        47.0001984
+                    ],
+                    [
+                        28.8430737,
+                        47.0009287
+                    ],
+                    [
+                        28.8428964,
+                        47.0013854
+                    ],
+                    [
+                        28.8427495,
+                        47.0017793
                     ]
                 ]
             }
@@ -673,7 +685,7 @@
                     "name:mo": "bulevardul Dacia",
                     "name:ro": "Bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -903,6 +915,10 @@
                 "id": 27404607,
                 "tags": {
                     "highway": "tertiary",
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
+                    "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -1015,7 +1031,9 @@
                     "highway": "tertiary",
                     "lit": "yes",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -1068,9 +1086,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -1214,6 +1232,7 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ro": "Bd.Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
                     "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
@@ -1457,9 +1476,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "wrong_name": "str. Aeroportului",
                     "wrong_name:ru": "\u0443\u043b. \u0410\u0435\u0440\u043e\u043f\u043e\u0440\u0442\u0443\u043b\u0443\u0439"
@@ -1636,12 +1655,12 @@
                         46.9829817
                     ],
                     [
-                        28.8617725,
-                        46.9831652
+                        28.8617666,
+                        46.9831613
                     ],
                     [
-                        28.8614373,
-                        46.9834008
+                        28.8614326,
+                        46.9833977
                     ],
                     [
                         28.8613148,
@@ -1737,9 +1756,9 @@
                     "lanes": "3",
                     "maxspeed": "70",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bd.Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -1793,11 +1812,11 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
-                    "oneway": "yes"
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
+                    "oneway": "yes",
+                    "surface": "asphalt"
                 }
             },
             "geometry": {
@@ -1828,6 +1847,7 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
                     "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
@@ -1857,10 +1877,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -1931,9 +1950,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -2009,7 +2028,9 @@
                 "tags": {
                     "highway": "tertiary",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -2063,7 +2084,9 @@
                 "tags": {
                     "highway": "tertiary",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -2119,6 +2142,7 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
                     "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
@@ -2455,9 +2479,8 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
                     "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
@@ -2527,9 +2550,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -2773,12 +2796,12 @@
                         46.9833451
                     ],
                     [
-                        28.8613722,
-                        46.9832078
+                        28.8613674,
+                        46.9832047
                     ],
                     [
-                        28.8615824,
-                        46.9830586
+                        28.8615745,
+                        46.9830536
                     ],
                     [
                         28.8618411,
@@ -2911,9 +2934,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "wrong_name": "str. Aeroportului",
                     "wrong_name:ru": "\u0443\u043b. \u0410\u0435\u0440\u043e\u043f\u043e\u0440\u0442\u0443\u043b\u0443\u0439"
@@ -2980,10 +3003,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
@@ -3281,6 +3303,10 @@
                 "id": 181020632,
                 "tags": {
                     "highway": "tertiary",
+                    "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
+                    "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes",
                     "surface": "asphalt"
                 }
@@ -3552,10 +3578,11 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "name_1": "bd. Dacia",
-                    "old_name": "Bulevardul Pacii",
-                    "oneway": "yes"
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
+                    "oneway": "yes",
+                    "surface": "asphalt"
                 }
             },
             "geometry": {
@@ -3586,9 +3613,9 @@
                     "lanes": "3",
                     "maxspeed": "50",
                     "name": "Bulevardul Dacia",
-                    "name:ro": "Bulevardul Dacia",
+                    "name:mo": "bulevardul Dacia",
                     "name:ru": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u0414\u0430\u0447\u0438\u044f",
-                    "old_name": "\u043f\u0440. \u041c\u0438\u0440\u0430",
+                    "old_name": "\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041c\u0438\u0440\u0430",
                     "oneway": "yes"
                 }
             },
