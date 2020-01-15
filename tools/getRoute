@@ -8,6 +8,7 @@ import csv
 import os
 import logging
 import json
+from time import sleep
 
 import osm2geojson
 
@@ -61,6 +62,7 @@ def process_csv(csv_path, target_path):
         for row in reader:
             log.info('Processing route %s, `%s`', row['name_concise'], row['name_long'])
             save_route(row['id_upstream'], row['osm_relation'], target_path)
+            sleep(10)
 
 
 
