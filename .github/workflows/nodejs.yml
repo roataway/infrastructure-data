@@ -24,6 +24,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 13.x
+        registry-url: 'https://registry.npmjs.org'
 
     - name: Cache node modules
       uses: actions/cache@v1
@@ -49,13 +50,17 @@ jobs:
     - name: Validate CSV and convert to JSON
       run: node scripts/csv2json.mjs
 
-    - name: Publish @roataway/infrastructure-data
+    - name: Release @roataway/infrastructure-data
       run: |
         git config user.email "action@github.com"
         git config user.name "GitHub Action"
-        git remote -v
         npm version patch
-        npm publish --dry-run
+        git push --follow-tags
+
+    - name: Publish @roataway/infrastructure-data
+      run: npm publish --dry-run
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Trigger web-ui build
       run: echo 'trigger build'
