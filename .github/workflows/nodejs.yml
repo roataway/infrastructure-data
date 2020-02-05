@@ -1,11 +1,13 @@
-name: Validate geojson
+name: Validate, Publish, Trigger
 
 on:
   push:
     branches:
       - master
     paths:
-      - 'data/**'
+      - data/**
+      - routes.csv
+      - vehicles.csv
 
 env:
   CI: true
@@ -13,16 +15,47 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
+
     - name: Install Node
       uses: actions/setup-node@v1
       with:
-        node-version: 12.x
-    - name: Install json validator
-      run: npm install -g ajv-cli
+        node-version: 13.x
+
+    - name: Cache node modules
+      uses: actions/cache@v1
+      env:
+        cache-name: cache-node-modules
+      with:
+        path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+
+    - name: Install Dependencies
+      run: npm install
+
     - name: Download geojson schema
       run: wget http://json.schemastore.org/geojson
+
     - name: Validate all geojson files from data/*.json
-      run: ajv -s geojson -d "data/*.json" --errors=text
+      run: npx ajv -s geojson -d "data/*.json" --errors=text
+
+    - name: Validate CSV and convert to JSON
+      run: node scripts/csv2json.mjs
+
+    - name: Publish @roataway/infrastructure-data
+      run: |
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+        git remote -v
+        npm version patch
+        npm publish --dry-run
+
+    - name: Trigger web-ui build
+      run: echo 'trigger build'

@@ -1,2 +1,8 @@
 /tools
 /.github
+/scripts
+
+# this files are generated and are ignored in .gitignore
+# but we exclude them for npm to be included in package
+!/routes.json
+!/vehicles.json
