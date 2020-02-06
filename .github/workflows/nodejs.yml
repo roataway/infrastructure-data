@@ -63,7 +63,7 @@ jobs:
         tags: true
 
     - name: Publish @roataway/infrastructure-data
-      run: npm publish --dry-run
+      run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
