@@ -68,4 +68,9 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     - name: Trigger web-ui build
-      run: echo 'trigger build'
+      run: |
+        curl -d '{"event_type":"trigger-web-ui"}' \
+          -H "Content-Type: application/json" \
+          -H "Accept: application/vnd.github.everest-preview+json" \
+          -H "Authorization: Bearer ${{ secrets.WEB_UI_TOKEN }}" \
+          -X POST https://api.github.com/repos/roataway/web-ui/dispatches
