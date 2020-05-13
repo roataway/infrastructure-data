@@ -1,0 +1,2 @@
+osm2geojson==0.1.17
+requests==2.22.0
