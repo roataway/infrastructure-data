@@ -1,7 +1,7 @@
 tracker_id,organization,board,vehicle_type,model,door_count,release_date,articulated,accessibility
 0000082,PT-1,1230,trolleybus,ZiU/9,3,01/09/1989,,
 0000125,PT-1,1201,trolleybus,ZiU/9,3,01/02/1987,,
-,PT-1,1232,trolleybus,ZiU/9,3,01/11/1989,,
+0000342,PT-1,1232,trolleybus,ZiU/9,3,01/11/1989,,
 0000257,PT-1,1216,trolleybus,ZiU/9,3,01/09/1988,,
 0000185,PT-1,1217,trolleybus,ZiU/9,3,01/11/1988,,
 0000056,PT-1,1222,trolleybus,ZiU/9,3,01/01/1989,,
@@ -12,14 +12,14 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 ,PT-1,1266,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
 ,PT-1,1267,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
 0000375,PT-1,1268,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
-,PT-1,1269,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
+0000345,PT-1,1269,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
 0000041,PT-1,1270,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
 0000062,PT-1,1271,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
-,PT-1,1272,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
+0000331,PT-1,1272,trolleybus,Skoda/14-Tr.M,3,15/01/2002,,
 0000289,PT-1,1273,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000018,PT-1,1274,trolleybus,Skoda/14-Tr.M,3,08/06/2004,,
 0000127,PT-1,1275,trolleybus,Skoda/14-Tr.M,3,09/06/2004,,
-,PT-1,1276,trolleybus,Skoda/14-Tr.M,3,10/06/2004,,
+0001035,PT-1,1276,trolleybus,Skoda/14-Tr.M,3,10/06/2004,,
 ,PT-1,1278,trolleybus,BKM/AKSM-213,4,15/11/2005,yes,
 0000246,PT-1,1279,trolleybus,BKM/AKSM-213,4,15/11/2005,yes,
 0000301,PT-1,1280,trolleybus,Litan/IuMZ-T2,3,05/06/2006,,
@@ -28,7 +28,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000221,PT-1,1283,trolleybus,Litan/IuMZ-T2,3,05/06/2006,,
 0000308,PT-1,1284,trolleybus,Litan/IuMZ-T2,3,05/06/2006,,
 0000068,PT-1,1285,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
-0000226,PT-1,1286,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
+0000288,PT-1,1286,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
 0000338,PT-1,1287,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
 0000197,PT-1,1288,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
 0000112,PT-1,1289,trolleybus,BKM/AKSM-321,3,27/04/2011,,yes
@@ -56,7 +56,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000131,PT-1,1311,trolleybus,BKM/AKSM-321,3,04/10/2011,,yes
 0000275,PT-1,1312,trolleybus,BKM/AKSM-321,3,04/10/2011,,yes
 0000071,PT-1,1313,trolleybus,BKM/AKSM-321,3,04/10/2011,,yes
-0000179,PT-1,1314,trolleybus,BKM/AKSM-321,3,04/10/2011,,yes
+0001039,PT-1,1314,trolleybus,BKM/AKSM-321,3,04/10/2011,,yes
 0000313,PT-1,1315,trolleybus,BKM/AKSM-321,3,13/10/2011,,yes
 0000078,PT-1,1316,trolleybus,BKM/AKSM-321,3,13/10/2011,,yes
 0000028,PT-1,1317,trolleybus,BKM/AKSM-321,3,15/10/2011,,yes
@@ -68,7 +68,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000098,PT-1,1323,trolleybus,BKM/AKSM-321,3,27/05/2013,,yes
 0000024,PT-1,1324,trolleybus,BKM/AKSM-321,3,06/09/2013,,yes
 0000200,PT-1,1325,trolleybus,BKM/AKSM-321,3,13/09/2013,,yes
-0000239,PT-1,1326,trolleybus,BKM/AKSM-321,3,22/11/2013,,yes
+0001040,PT-1,1326,trolleybus,BKM/AKSM-321,3,22/11/2013,,yes
 0000067,PT-1,1327,trolleybus,BKM/AKSM-321,3,25/11/2013,,yes
 0000292,PT-1,1328,trolleybus,BKM/AKSM-321,3,30/12/2013,,yes
 0000073,PT-1,1329,trolleybus,BKM/AKSM-321,3,04/06/2014,,yes
@@ -80,7 +80,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000114,PT-1,1335,trolleybus,BKM/AKSM-321,3,14/05/2015,,yes
 0000119,PT-1,1336,trolleybus,BKM/AKSM-321,3,22/05/2015,,yes
 0000045,PT-1,1337,trolleybus,BKM/AKSM-321,3,01/09/2015,,yes
-0000241,PT-1,1338,trolleybus,BKM/AKSM-321,3,10/09/2015,,yes
+0001038,PT-1,1338,trolleybus,BKM/AKSM-321,3,10/09/2015,,yes
 0000036,PT-1,1339,trolleybus,BKM/AKSM-321,3,16/12/2015,,yes
 0000141,PT-1,1340,trolleybus,BKM/AKSM-321,3,17/12/2015,,yes
 0000030,PT-1,1341,trolleybus,BKM/AKSM-321,3,26/03/2016,,yes
@@ -106,7 +106,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000335,PT-1,1361,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
 0000216,PT-1,1362,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
 0000326,PT-1,1363,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
-0000267,PT-1,1364,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
+0001041,PT-1,1364,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
 0000063,PT-1,1365,trolleybus,BKM/AKSM-321,3,04/02/2019,,yes
 ,PT-1,1367,trolleybus,BKM/AKSM-321,3,24/05/2019,,yes
 0000368,PT-1,1368,trolleybus,BKM/AKSM-321,3,31/05/2019,,yes
@@ -117,7 +117,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000080,PT-2,2119,trolleybus,ZiU/9,3,01/06/1995,,
 0000083,PT-2,2120,trolleybus,ZiU/10,4,01/07/1995,yes,
 0000247,PT-2,2121,trolleybus,ZiU/10,4,01/07/1995,yes,
-,PT-2,2122,trolleybus,ZiU/10,4,01/07/1995,yes,
+0000254,PT-2,2122,trolleybus,ZiU/10,4,01/07/1995,yes,
 0000161,PT-2,2124,trolleybus,ZiU/9,3,01/09/1995,,
 0000092,PT-2,2130,trolleybus,Litan/IuMZ-T1,4,01/08/1996,yes,
 0000072,PT-2,2131,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
@@ -127,7 +127,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0001002,PT-2,2135,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
 0000176,PT-2,2136,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
 ,PT-2,2137,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
-0000288,PT-2,2138,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
+0001037,PT-2,2138,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
 0000096,PT-2,2139,trolleybus,Skoda/14-Tr.M,3,05/10/1997,,
 0000027,PT-2,2140,trolleybus,Skoda/14-Tr.M,3,08/06/2004,,
 0000081,PT-2,2141,trolleybus,Skoda/14-Tr.M,3,08/06/2004,,
@@ -143,7 +143,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000343,PT-2,2151,trolleybus,Litan/IuMZ-T2,3,24/08/2006,,
 0000053,PT-2,2152,trolleybus,Litan/IuMZ-T2,3,24/08/2006,,
 0000029,PT-2,2153,trolleybus,Litan/IuMZ-T2,3,30/08/2006,,
-0000031,PT-2,2154,trolleybus,Litan/IuMZ-T2,3,14/09/2006,,
+0001020,PT-2,2154,trolleybus,Litan/IuMZ-T2,3,14/09/2006,,
 0000276,PT-2,2155,trolleybus,Litan/IuMZ-T2,3,14/09/2006,,
 0000087,PT-2,2156,trolleybus,Litan/IuMZ-T2,3,03/10/2006,,
 0000058,PT-2,2157,trolleybus,Litan/IuMZ-T2,3,03/10/2006,,
@@ -171,7 +171,7 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000059,PT-2,2179,trolleybus,BKM/AKSM-321,3,30/08/2011,,yes
 0000371,PT-2,2180,trolleybus,BKM/AKSM-321,3,30/08/2011,,yes
 0000154,PT-2,2181,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
-0000298,PT-2,2182,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
+0000369,PT-2,2182,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
 0000159,PT-2,2183,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
 0000065,PT-2,2184,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
 0000047,PT-2,2185,trolleybus,BKM/AKSM-321,3,21/09/2011,,yes
@@ -221,8 +221,8 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 0000283,PT-2,2429,trolleybus,BKM/AKSM-321,3,05/05/2018,,yes
 0000270,PT-2,2430,trolleybus,BKM/AKSM-321,3,03/01/2019,,yes
 0001024,PT-2,2432,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
-0000331,PT-2,2433,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
-0000278,PT-2,2434,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
+0000346,PT-2,2433,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
+0000203,PT-2,2434,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
 0001022,PT-2,2435,trolleybus,BKM/AKSM-321,3,03/09/2019,,yes
 0000118,PT-3,3777,trolleybus,ZiU/9,3,01/10/1989,,
 0001004,PT-3,3780,trolleybus,ZiU/9,3,01/10/1989,,
@@ -250,13 +250,13 @@ tracker_id,organization,board,vehicle_type,model,door_count,release_date,articul
 ,PT-3,3817,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0001006,PT-3,3818,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000022,PT-3,3819,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
-,PT-3,3820,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
+0000239,PT-3,3820,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000329,PT-3,3821,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000194,PT-3,3822,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000299,PT-3,3823,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000285,PT-3,3824,trolleybus,Skoda/14-Tr.M,3,14/10/2002,,
 0000213,PT-3,3825,trolleybus,Skoda/14-Tr.M,3,08/06/2004,,
-0000043,PT-3,3826,trolleybus,Skoda/14-Tr.M,3,09/06/2004,,
+0000126,PT-3,3826,trolleybus,Skoda/14-Tr.M,3,09/06/2004,,
 0000302,PT-3,3827,trolleybus,Skoda/14-Tr.M,3,10/06/2004,,
 0000256,PT-3,3828,trolleybus,BKM/AKSM-321,3,11/05/2011,,yes
 0000225,PT-3,3829,trolleybus,BKM/AKSM-321,3,11/05/2011,,yes
